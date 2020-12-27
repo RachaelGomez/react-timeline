@@ -4,15 +4,16 @@ import Timestamp from './Timestamp';
 import PropTypes from 'prop-types';
 
 const TimelineEvent = (props) => {
+  return(
   <div>
     <ul>
       <li>{props.person}</li>
-      <li>{props.event}</li>
+      <li>{props.status}</li>
       <li>{props.timeStamp}</li>
     </ul>
   </div>
+  );
   
-  return;
 };
 
 TimelineEvent.propTypes = {

@@ -14,6 +14,9 @@ function App() {
         <h1 className="App-title">{timelineData.person}'s feed</h1>
       </header>
       <main className="App-main">
+        <div>
+          <Timeline events={timelineData.events}/>
+        </div>
       </main>
     </div>
   );
