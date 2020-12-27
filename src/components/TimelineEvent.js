@@ -1,8 +1,9 @@
 import React from 'react';
 import './TimelineEvent.css';
 import Timestamp from './Timestamp';
+import PropTypes from 'prop-types';
 
-const TimelineEvent = () => {
+const TimelineEvent = (props) => {
   
   return;
 }
